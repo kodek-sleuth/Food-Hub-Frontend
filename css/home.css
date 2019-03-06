@@ -1,0 +1,142 @@
+@media(max-width: 900px)
+{
+    body
+    {
+        margin: 0;
+        height: 100%;
+        width: 100%;    
+    }
+    
+    .spCred
+    {
+       display: grid;
+       grid-template-columns: 80% 20%;
+       margin: 0;
+    }
+
+    .spImg
+    {
+        height: 150px;
+        width: 150px;
+    }
+
+    #gridSpecials
+    {
+        display: grid;
+        grid-template-columns: 30% 30%;
+        grid-column-gap: 70px;
+        margin-left: 25px;
+    }
+
+    #navOne
+    {
+        border: 2px solid #fff;
+        -moz-border-radius: 28px;
+        -webkit-border-radius: 28px;
+        border-radius: 28px;
+        width: 100px;
+        height: 100px;
+        padding: 10px 0;
+        display: grid;
+        grid-template-rows: 60% 20%;
+        justify-items: center;
+    }
+    
+    #navigation
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    #navThree
+    {
+        border: 2px solid #fff;
+        -moz-border-radius: 28px;
+        -webkit-border-radius: 28px;
+        border-radius: 28px;
+        width: 100px;
+        height: 100px;
+        padding: 10px 0;
+        display: grid;
+        grid-template-rows: 60% 20%;
+        justify-items: center;
+    }
+
+    .navIcons
+    {
+        height: 50px;
+        width: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background: #fff;
+        -moz-border-radius: 40px;
+        -webkit-border-radius: 40px;
+        border-radius: 40px;
+    }
+
+    #specialFoods
+    {
+        background: #fff;
+    }
+
+    #theFoods
+    {
+        display: grid;
+        grid-template-columns: 30% 30%;
+        grid-column-gap: 70px;
+        margin-left: 25px;
+    }
+
+    .menuIcons
+    {
+        height: 25px;
+    }
+
+    #nav-key
+    {
+        display: grid;
+        grid-template-columns: 15% 15%;
+        margin-left: 80%;
+        grid-column-gap: 10px;
+    }
+
+    #menuTags
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #firstOne
+    {
+        background: url("../images/bucketChickenOne.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 100%;
+    }
+
+    #secondOne
+    {
+        background: url("../images/friess.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 100%;
+    }
+
+    #thirdOne
+    {
+        background: url("../images/pizza.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 100%;
+    }
+}
