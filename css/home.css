@@ -4,7 +4,8 @@
     {
         margin: 0;
         height: 100%;
-        width: 100%;    
+        width: 100%;   
+        background: rgb(243, 242, 242); 
     }
     
     .spCred
@@ -46,8 +47,13 @@
     {
         display: grid;
         grid-template-columns: 50% 50%;
-        margin-left: 50px;
+        margin-left: 40px;
         margin-top: 50px;
+    }
+
+    #restaurants
+    {
+        margin-top: 30px;
     }
 
     #navThree
@@ -76,11 +82,6 @@
         -moz-border-radius: 40px;
         -webkit-border-radius: 40px;
         border-radius: 40px;
-    }
-
-    #specialFoods
-    {
-        background: #fff;
     }
 
     #theFoods
@@ -138,5 +139,30 @@
         background-repeat: no-repeat;
         height: 250px;
         width: 100%;
+    }
+
+    .footerIcons
+    {
+        height: 40px;
+        width: 40px;
+        
+    }
+
+    #footer
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        background: #fff;
+        width: 100%;
+        cursor: pointer;
+        padding: 10px 0;   
+        position: sticky;  
+        bottom: 0;  
+        
+    }
+
+    .ftFixed
+    {
+        margin-left: 15px;
     }
 }

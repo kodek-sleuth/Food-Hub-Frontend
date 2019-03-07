@@ -1,0 +1,84 @@
+@media(max-width: 900px)
+{
+    body
+    {
+        margin: 0;
+        background: rgb(243, 242, 242);
+        height: 100%;
+        width: 100%;
+    }
+
+    .menuImgs
+    {
+        width: 100px;
+        height: 100px;
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+
+    .One
+    {
+        background: #fff;
+        -moz-border-radius: 28px;
+        -webkit-border-radius: 28px;
+        border-radius: 28px;
+        width: 150px;
+        height: 350px;
+        margin-left: 30px;
+    }
+
+    .Two
+    {
+        background: #fff;
+        -moz-border-radius: 28px;
+        -webkit-border-radius: 28px;
+        border-radius: 28px;
+        width: 150px;
+        height: 350px;
+        margin-left: 20px;
+        margin-top: 50px;
+
+    }
+
+    #divisions
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 25px;
+    }
+
+    button
+    {
+        margin-left: 25px;
+    }
+
+    h4
+    {
+        margin-left: 25px;
+    }
+
+    .footerIcons
+    {
+        height: 40px;
+        width: 40px;
+        
+    }
+
+    #footer
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        background: #fff;
+        width: 100%;
+        cursor: pointer;
+        padding: 10px 0;   
+        position: sticky;  
+        bottom: 0;  
+        
+    }
+
+    .ftFixed
+    {
+        margin-left: 15px;
+    }
+}
