@@ -5,9 +5,16 @@
         margin: 0;
         height: 100%;
         width: 100%;   
-        background: rgb(243, 242, 242); 
+        background: #222;
     }
-    
+
+    #special
+    {
+        font-family: 'Bree Serif', serif;
+        color: #e80a89;
+        margin-left: 10px;
+    }
+
     .spCred
     {
        display: grid;
@@ -31,7 +38,7 @@
 
     #navOne
     {
-        border: 2px solid #fff;
+        border: 2px solid #181818;
         -moz-border-radius: 28px;
         -webkit-border-radius: 28px;
         border-radius: 28px;
@@ -41,6 +48,7 @@
         display: grid;
         grid-template-rows: 60% 20%;
         justify-items: center;
+        background: #181818;
     }
     
     #navigation
@@ -56,9 +64,21 @@
         margin-top: 30px;
     }
 
+    .spH
+    {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+
+    #spHp
+    {
+        margin-left: 10px;
+    }
+
     #navThree
     {
-        border: 2px solid #fff;
+        border: 2px solid #181818;
         -moz-border-radius: 28px;
         -webkit-border-radius: 28px;
         border-radius: 28px;
@@ -68,6 +88,13 @@
         display: grid;
         grid-template-rows: 60% 20%;
         justify-items: center;
+        background: #181818;
+    }
+
+    .navHeaders
+    {
+        font-family: 'Noto Serif', serif;
+        color: #fff;
     }
 
     .navIcons
@@ -87,9 +114,9 @@
     #theFoods
     {
         display: grid;
-        grid-template-columns: 30% 30%;
-        grid-column-gap: 70px;
-        margin-left: 25px;
+        grid-template-columns: 40% 40%;
+        grid-column-gap: 30px;
+        margin-left: 35px;
     }
 
     .menuIcons
@@ -144,15 +171,15 @@
     .footerIcons
     {
         height: 40px;
-        width: 40px;
-        
+        width: 40px;    
+        fill: #f2f2f2;
     }
 
     #footer
     {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        background: #fff;
+        background: #181818;
         width: 100%;
         cursor: pointer;
         padding: 10px 0;   
@@ -164,5 +191,62 @@
     .ftFixed
     {
         margin-left: 15px;
+    }
+
+    button
+    {
+        width: 150px;
+        background: linear-gradient(to right,#f05a28 0,#e80a89 100%);
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        padding: 12px 25px 11px;
+    }
+
+    .cartSize
+    {
+        fill: #fff;
+        height: 20px;
+        width: 20px;
+        margin-left: 30px;
+        margin-top: 2px;
+    }
+
+    #mH
+    {
+        color: #fff;
+        font-size: 25px;
+        font-family: 'Bree Serif', serif;
+        margin-left: 15px;
+    }
+
+    #mA
+    {
+        color: #e80a89;
+        font-size: 25px;
+        font-family: 'Bree Serif', serif;
+        padding-left: 15px;
+        text-decoration: underline;
+    }
+
+    .fF
+    {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+
+    .fP
+    {
+        color: #fff;
+        font-family: 'Noto Serif', serif;
+        font-size: 20px;
+
+    }
+
+    .menuIcons
+    {
+        fill: #e80a89;
+        margin-top: 10px;
     }
 }

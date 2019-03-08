@@ -1,0 +1,97 @@
+@media(max-width: 900px)
+{
+    body
+    {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        background: rgb(243, 242, 242);
+    }
+
+    #logo
+    {
+        width: 100%;
+        height: 300px;
+        background-image: url('../images/kfc.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .logoTxt
+    {
+        margin-top: 0%;
+        color: #FEA735;
+        font-size: 55px;
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        font-family: 'Pacifico', cursive;
+        
+    }
+
+    .hours
+    {
+        margin-left: 25%;
+        margin-top: 150px;
+        font-family: 'Acme', sans-serif;
+        background: #F5EBAF;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 45px;
+        padding-right: 10px;
+        width: 150px;
+        color: rgb(17, 23, 39);
+    }
+
+    .One
+    {
+        background: #fff;
+        -moz-border-radius: 28px;
+        -webkit-border-radius: 28px;
+        border-radius: 28px;
+        width: 150px;
+        height: 350px;
+        margin-left: 30px;
+    }
+
+    .Two
+    {
+        background: #fff;
+        -moz-border-radius: 28px;
+        -webkit-border-radius: 28px;
+        border-radius: 28px;
+        width: 150px;
+        height: 350px;
+        margin-left: 20px;
+        margin-top: 50px;
+
+    }
+
+    .menuImgs
+    {
+        width: 100px;
+        height: 100px;
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+
+    .theFoods
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .orderNames
+    {
+        margin-left: 15%;
+    }
+
+    .orderPrices
+    {
+        margin-left: 15%;
+    }
+}
