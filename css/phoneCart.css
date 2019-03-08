@@ -52,14 +52,57 @@
         width: 100%;
     }
 
-    .footerIconMenu
+    
+    .footerIcons
     {
         height: 40px;
-        width: 35px;
+        width: 40px;    
+        fill: #fff;
+    }
+
+    .footerIconCart
+    {
+        height: 40px;
+        width: 40px;    
+        fill: #f05a28;
     }
 
     .ftFixed
     {
         margin-left: 15px;
+    }
+
+    .iconTxt
+    {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    .iconTxtC
+    {
+        margin-left: 10px;
+        color: #f05a28;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    .iconTxtH
+    {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .homeIcon
+    {
+        height: 40px;
+        width: 40px;
+        fill: #fff;
+    }
+
+    #cartH
+    {
+        color: #fff;
+        font-family: 'Bitter', serif;
     }
 }

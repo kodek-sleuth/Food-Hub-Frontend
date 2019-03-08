@@ -119,11 +119,7 @@
         margin-left: 35px;
     }
 
-    .menuIcons
-    {
-        height: 25px;
-    }
-
+   
     #nav-key
     {
         display: grid;
@@ -172,7 +168,7 @@
     {
         height: 40px;
         width: 40px;    
-        fill: #f2f2f2;
+        fill: #fff;
     }
 
     #footer
@@ -249,4 +245,60 @@
         fill: #e80a89;
         margin-top: 10px;
     }
+
+    .mainIcon
+    {
+        height: 50px;
+        width: 50px;
+        margin-left: 10px;
+    }
+
+    #mainTxt
+    {
+        font-family: 'Pacifico', cursive; 
+        color: #f2f2f2;
+        float: right;
+        margin-right: 50px;
+        color: #f05a28;
+    }
+
+    #mainLogoNav
+    {
+        background: #181818;
+        padding: 5px 0;
+    }
+
+    .homeIcon
+    {
+        height: 40px;
+        width: 40px;
+        fill: #f05a28;
+    }
+
+    .mainIcon
+    {
+        margin-top: 15px;
+    }
+
+    .iconTxt
+    {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    .iconTxtC
+    {
+        margin-left: 10px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    .iconTxtH
+    {
+        color: #f05a28;
+        font-family: 'Roboto', sans-serif;
+    }
+
 }
