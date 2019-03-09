@@ -2,87 +2,6 @@ var hideRealMenu = document.getElementById('theRealMenu');
 hideRealMenu.style.display="none";
 
 
-function getKfc()
-{
-    let outputPlace = '';
-    let outputLocation= '';
-    
-    fetch('http://127.0.0.1:3000/restaurants',{
-        method: 'GET'
-    })
-    .then((response)=> response.json())
-    .then((data)=>{
-        data.forEach(meal => {
-            if(meal.Name=='KFC')
-            {
-                outputPlace += `<h3>${meal.Name}</h3>
-                `;
-
-                outputLocation += `<h3>${meal.Location}</h3>`
-            }    
-        });
-        document.getElementById('kfcName').innerHTML=outputPlace;
-        document.getElementById('locationKfc').innerHTML=outputLocation;
-
-    })
-}
-
-getKfc();
-
-function getJavas()
-{
-    let outputPlace = '';
-    let outputLocation= '';
-    
-    fetch('http://127.0.0.1:3000/restaurants',{
-        method: 'GET'
-    })
-    .then((response)=> response.json())
-    .then((data)=>{
-        data.forEach(meal => {
-            if(meal.Name=='Cafe Javas')
-            {
-                outputPlace += `<h3>${meal.Name}</h3>
-                `;
-
-                outputLocation += `<h3>${meal.Location}</h3>`
-            }    
-        });
-        document.getElementById('javasName').innerHTML=outputPlace;
-        document.getElementById('locationJavas').innerHTML=outputLocation;
-
-    })
-}
-
-getJavas();
-
-function getPizza()
-{
-    let outputPlace = '';
-    let outputLocation= '';
-    
-    fetch('http://127.0.0.1:3000/restaurants',{
-        method: 'GET'
-    })
-    .then((response)=> response.json())
-    .then((data)=>{
-        data.forEach(meal => {
-            if(meal.Name=='Pizza Hut')
-            {
-                outputPlace += `<h3>${meal.Name}</h3>
-                `;
-
-                outputLocation += `<h3>${meal.Location}</h3>`
-            }    
-        });
-        document.getElementById('pizzaName').innerHTML=outputPlace;
-        document.getElementById('locationPizza').innerHTML=outputLocation;
-
-    })
-}
-
-getPizza();
-
 var clickIconMenu = document.getElementById('restMenu');
 clickIconMenu.addEventListener('click', showRealMenu);
 
@@ -202,6 +121,15 @@ function toKfcRest()
     window.location='/kfc.html';
 }
 
+var toCart=document.getElementById('toCart');
+toCart.addEventListener('click', toCartProfile);
+
+function toCartProfile()
+{
+    window.location='/cart.html';
+}
+
+
 var toRestJavas=document.getElementById('toJavas');
 toRestJavas.addEventListener('click', toJavasRest);
 
@@ -223,6 +151,7 @@ toFoodPages[0].addEventListener('click', toPageKfc);
 toFoodPages[1].addEventListener('click', toPagesPizaaHut);
 toFoodPages[2].addEventListener('click', toPageJavas);
 
+
 function toPageKfc()
 {
     window.location='/kfc.html';
@@ -238,3 +167,8 @@ function toPageJavas()
     window.location='/javas.html';
 }
 
+document.getElementById('carter').addEventListener('click', toCarter);
+function toCarter()
+{
+    window.location='/cart.html'
+}

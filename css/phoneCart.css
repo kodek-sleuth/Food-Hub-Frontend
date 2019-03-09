@@ -105,4 +105,15 @@
         color: #fff;
         font-family: 'Bitter', serif;
     }
+
+    #cartItems
+  {
+    display: grid;
+    grid-template-columns: 50% 30%;
+    margin-left: 10%;
+    color: #f05a28;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+  }
+
 }

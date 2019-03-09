@@ -34,6 +34,8 @@ function validateLoginForm(l)
    
     let Username = document.getElementById('Username-login').value;
     let Password = document.getElementById('Password-login').value;
+    sessionStorage.setItem('Username', Username);
+    sessionStorage.setItem('Password', Password);
 
     if(Username==null||Username=='' && Password==null||Password=='')
     {
@@ -79,7 +81,7 @@ function validateLoginForm(l)
         let Username = document.getElementById('Username-login').value;       
         let Password = document.getElementById('Password-login').value;
             
-        fetch('http://127.0.0.1:3000/auth/user/Login',{
+        fetch('https://foodhub-delivery.herokuapp.com/auth/user/Login',{
             method:'POST',
             headers:{
                 'Accept':'application/json, text/plain, */*',
@@ -93,6 +95,7 @@ function validateLoginForm(l)
             .then((data)=> {
                 if(data.Message=='You have successfully Logged In')
                 {
+                    sessionStorage.setItem('Access_Token', data.Access_Token);
                     window.location='/menu.html';
                 }
 

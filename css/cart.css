@@ -27,14 +27,12 @@ button
     width: 100%;
     cursor: pointer;
     font-family: 'Bitter', serif;
+    margin-bottom: 25px;
 }
 
 h2
 {
-    margin-left: 40%;
-    color: #f05a28;
-    font-family: 'Bitter', serif;
-    font-size: 50px;
+   
 
 }
 
@@ -125,4 +123,14 @@ h2
 {
     display: grid;
     grid-template-columns: 90% 10%;
+}
+
+#cartItems
+{
+    display: grid;
+    grid-template-columns: 20% 20%;
+    margin-left: 10%;
+    color: #f05a28;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
 }
