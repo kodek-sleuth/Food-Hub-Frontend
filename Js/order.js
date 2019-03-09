@@ -89,7 +89,7 @@ function runEventOne(f)
                 'Content-type':'application/json'
             },
               
-            body:JSON.stringify({Username:'mafia', Password:'theemafia'})
+            body:JSON.stringify({Username:'kodek2000', Password:'mafiaX'})
     
             })
             .then((response)=> response.json())

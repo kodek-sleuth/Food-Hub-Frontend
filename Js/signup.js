@@ -122,7 +122,7 @@ function validateForm(f)
         let City = document.getElementById('City').value;
         let Address = document.getElementById('Address').value;
     
-        fetch('http://127.0.0.1:3000/auth/user/Register',{
+        fetch('https://foodhub-delivery.herokuapp.com/auth/user/Register',{
             method:'POST',
             headers:{
                 'Accept':'application/json, text/plain, */*',
