@@ -82,7 +82,7 @@ function runEventOne(f)
         let Username = document.getElementById('Username').value;
         let locationforOrder = document.getElementById('locationForOrder').value;
     
-        fetch('http://127.0.0.1:3000/auth/admin/Login',{
+        fetch('https://foodhub-delivery.herokuapp.com/auth/admin/Login',{
             method:'POST',
             headers:{
                 'Accept':'application/json, text/plain, */*',
@@ -96,7 +96,7 @@ function runEventOne(f)
             .then((data)=> {
                 if(data.Message=="You have successfully Logged In")
                 {
-                    fetch('http://127.0.0.1:3000/admin/users?token='+data.Access_Token,{
+                    fetch('https://foodhub-delivery.herokuapp.com/admin/users?token='+data.Access_Token,{
                     method:'GET'
                   })
                   .then((response)=>response.json())
@@ -107,7 +107,7 @@ function runEventOne(f)
                         {
                             if(user.Username==thisUser)
                             {
-                                fetch('http://127.0.0.1:3000/auth/user/Login',{
+                                fetch('https://foodhub-delivery.herokuapp.com/auth/user/Login',{
                                     method:'POST',
                                     headers:{
                                         'Accept':'application/json, text/plain, */*',
