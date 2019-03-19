@@ -6,7 +6,7 @@ The front-end part of FoodHub-Delivery-API in ES6, vanilla and Jquery
 2. Browser.*
 3. Html, Css and Javascript.*
 
-[Project Hosted on Github-Pages](https://kodek-sleuth.github.io/)
+[Project Hosted on Netlify-Pages](https://foodhub-delivery.netlify.com/)
 
 ## Required Features
 - Users can signUp for an account
